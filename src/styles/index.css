@@ -1,0 +1,51 @@
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#root{
+  margin: 0;
+}
+nav{
+  display: flex;
+  background-color: burlywood;
+  align-items: center;
+  justify-content: space-between;
+}
+.links{
+  display: flex;
+  gap: 10px;
+}
+.link{
+  text-decoration: none;
+  color: black ;
+}
+.blog-preview a{
+  text-decoration: none;
+  color: black;
+}
+.create{
+  /* display: flex; */
+  
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin: auto;
+}
+input, select{
+  height: 30px;
+  margin-bottom: 10px;
+}
+button{
+  width: fit-content;
+  margin: auto;
+}
+textarea{
+  height: 100px;
+}
+.create h1{
+  font-size: 20px;
+  color: rgb(221, 144, 43);
+  text-align: center;
+}
